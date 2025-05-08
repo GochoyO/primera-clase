@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="/proceso" method="post"></form>
+        <label>Nombre</label>
+        <input type="text"  name="Nombre" required max="100" minlength="40">
+        <br>
+        <br>
+        <label>Correo</label>
+        <input type="email" name="correo:" required>
+        <br>
+        <br>
+        <label>Mensaje</label>
+        <textarea  name="mensaje" rows = 5  col="50"></textarea>
+        <br>
+        <br>
+        <label>Enviar</label>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
