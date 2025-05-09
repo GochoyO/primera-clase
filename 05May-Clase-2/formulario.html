@@ -8,11 +8,18 @@
 <body>
     <form action="/proceso" method="post"></form>
         <label>Nombre</label>
-        <input type="text"  name="Nombre" required max="100" minlength="40">
+        <input type="text" name="nombre" required maxlength="100" minlength="40">
         <br>
+        
+        <label >Ingrese número de telefono:</label>
+        <input type="tel" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <br>
+        <label>Edad</label>
+        <input type="number" name="edad" min="18" max="99" required>
         <br>
         <label>Correo</label>
         <input type="email" name="correo:" required>
+        
         <br>
         <br>
         <label>Mensaje</label>
