@@ -18,4 +18,4 @@ Practica:
         - Playa
 
 
-- En el pie de página con la información de contacto,que noslleva al formulario de contacto.
+- En el pie de página con la información de contacto,que nos lleva al formulario de contacto.
