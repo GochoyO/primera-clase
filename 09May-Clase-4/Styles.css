@@ -1,0 +1,155 @@
+
+body{
+    margin: 0;
+	padding:0;
+    width: 100%;
+    height: 200vh;
+    font-family: Tahoma, Verdana, sans-serif;
+    background: gainsboro;
+}
+
+/*Encabezado            */
+.bloque2{
+    width: 100%;
+    height: 50px;
+    display:inline-flex;
+    top: 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding:30px;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    background-color:gainsboro;;
+    background: gainsboro;
+    position:sticky;
+    z-index: 6;
+}
+.bloque2a{                           /*logo*/           
+    width:100px;
+    height: 100px;
+    position:fixed;
+    background-color:gainsboro;
+    top: 20px;
+    left: 10px;
+    z-index: 6;
+}
+.bloque2b{                             /*titulo*/         
+    width:400px;
+    height: 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-style:inherit;
+    position:fixed;
+    top: 40px;
+    left: 450px;
+    background-color: gainsboro;
+    z-index: 6;
+}
+.bloque2c{                                    /*acceso*/   
+    width:100px;
+    height:40;
+    text-align:end; 
+    position:fixed;
+    top: 90px;
+    left: 1210px;
+    font-size: small;
+    font-family: 'Arial Narrow', 'sans-serif';
+    font-style: normal;   
+    background-color:gainsboro;
+    z-index: 7;
+}
+.bloque2d{                                   /*user imege*/           
+    width:50px;
+    height: 40px;
+    text-align: end;
+    position:fixed;
+    background-color: gainsboro;
+    top:45px;
+    left: 1240px;
+    z-index: 6;  
+
+}
+.submenu{
+    width: 100%;
+    height: 20px;
+    display:inline-block;
+    position:fixed;
+    top:110px;
+    padding: 10px;
+    font-size: large;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #d9e62f;
+    position:sticky;
+    z-index: 11;
+}
+
+/*Sub-menu */
+.titulo2{
+    width: 100%;
+    height: 50px;
+    position:sticky;
+    top: 140px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: left;
+    background-color: green;
+    padding: 3px; 
+    z-index: 10;
+}
+.titulo3{
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
+    color: rgba(5, 5, 5, 0.979);
+    padding: 5px; 
+    margin-left: 50px;
+    z-index: -1;  
+
+}
+.titulo4{
+    font-size: 20px;
+    /*margin: 0 auto;*/
+    margin-left: 0px;
+    color: #145a32;
+    padding: 10px; 
+    width: 250px;
+    background-color: #d5f5e3;
+    z-index: -1;  
+}
+.titulo4a{
+    font-size: 20px;
+
+    color: #145a32;
+   padding: 5px; 
+    width: 200px;
+    background-color: #d5f5e3;
+    z-index: -1;  
+}
+#bloque{
+    /*width: 100vw;*/
+    padding: 5px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#orden{
+    /*padding: 10px;*/
+    margin: 0 auto;
+    background-color: #d1f2eb;
+    width: 500px
+    
+}
+#pie{
+    padding: 5px;
+    text-align: right;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #d9e62f;
+    font-family: 'Segoe UI';
+    
+}
+
+    
