@@ -87,6 +87,7 @@ text-align: center;
         border: 0.5px solid rgb(102, 102, 255);
         color:black;
         border-radius: 10px;
+        margin:0;
     }
 
     button{
@@ -120,3 +121,4 @@ margin-left: 350px;
     background-color: #f4d03f;
     border: 0.5px solid white;
     color:black;
+    }
