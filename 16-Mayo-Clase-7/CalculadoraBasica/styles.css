@@ -123,14 +123,14 @@ padding: 15px;
 font-size: xx-large;
 font-family: sans-serif;
 text-align: center;
-background-color: white;
+background-color: #f4d03f;
 border-radius: 20px;
 width: 640px;
 margin-left: 350px;
 }
 
     .salida:hover{                                         
-    background-color: #f4d03f;
+    background-color: #909009;
     border: 0.5px solid white;
     color:black;
     }
