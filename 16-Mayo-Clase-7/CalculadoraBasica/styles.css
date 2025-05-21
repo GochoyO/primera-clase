@@ -10,7 +10,8 @@ background-color: black;
 .bloque1a{
     display: flex;
     position:absolute;
-    background-color: rgb(102, 102, 255);
+   /* background-color: rgb(102, 102, 255);*/
+    background-color: #f4d03f;
     width: 200px;
     height: 50px;
     margin-left: 380px;
@@ -21,7 +22,8 @@ background-color: black;
 .bloque1b{
     display: flex;
     position:absolute;
-    background-color: rgb(102, 102, 255);
+    /*background-color: rgb(102, 102, 255);*/
+    background-color:#f4d03f;
     width: 200px;
     height: 50px;
     margin-left: 680px;
@@ -66,7 +68,7 @@ text-align: center;
     margin-left: 10%;
     }
     .uno:hover{
-        background-color: #d5f5e3;
+        background-color: #f4d03f;
         border: 0.5px solid rgb(102, 102, 255);
         color:black;
         border-radius: 10px;
@@ -86,7 +88,7 @@ text-align: center;
     /*margin-left: 10%;*/
     }
     .dos:hover{
-        background-color: #d5f5e3;
+        background-color: #f4d03f;
         border: 0.5px solid rgb(102, 102, 255);
         color:black;
         border-radius: 10px;
