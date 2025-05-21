@@ -10,14 +10,12 @@ background-color: black;
 .bloque1a{
     display: flex;
     margin-left: 35%;
- background-color: #909009;;
-   /* position:absolute;*/
-   
-   /*background-color: #f4d03f;*/
+    background-color: #909009;;
     width: 350px;
     height: 50px;
+    border: 1px solid white;
     border-radius: 20px;
-   padding: 10px;
+    padding: 10px;
     gap:20px;
     cursor: pointer;
 }
