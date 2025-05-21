@@ -9,36 +9,26 @@ background-color: black;
 
 .bloque1a{
     display: flex;
-    position:absolute;
-   /* background-color: rgb(102, 102, 255);*/
-    background-color: #f4d03f;
-    width: 200px;
+    margin-left: 35%;
+ background-color: #909009;;
+   /* position:absolute;*/
+   
+   /*background-color: #f4d03f;*/
+    width: 350px;
     height: 50px;
-    margin-left: 380px;
     border-radius: 20px;
-    padding: 10px;
+   padding: 10px;
+    gap:20px;
+    cursor: pointer;
 }
 
-.bloque1b{
-    display: flex;
-    position:absolute;
-    /*background-color: rgb(102, 102, 255);*/
-    background-color:#f4d03f;
-    width: 200px;
-    height: 50px;
-    margin-left: 680px;
-    border-radius: 20px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-
-}
 .botones{
     display:flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     margin-bottom: 60px;
+    cursor: pointer;
     
 }
 
@@ -58,14 +48,15 @@ text-align: center;
 .uno{
     display:flex;
     font-family: sans-serif;
-    padding: 15px;
+    padding: 20px;
     gap:12px;
-    color:#420922;
+    color:black;
     font-size: xx-large;
     text-align: center;
     width: 120px;
     height: 15%;
-    margin-left: 10%;
+    /*margin-left: 10%;*/
+    border-radius: 15px;
     }
     .uno:hover{
         background-color: #f4d03f;
@@ -78,14 +69,16 @@ text-align: center;
 .dos{
     display:flex;
     font-family: sans-serif;
-    padding: 15px;
+    padding: 20px;
     gap:12px;
-    color:#420922;
+    color:black;
     font-size: xx-large;
     text-align: center;
     width: 120px;
     height: 15%;
     /*margin-left: 10%;*/
+    border-radius: 15px;
+  
     }
     .dos:hover{
         background-color: #f4d03f;
@@ -129,6 +122,7 @@ background-color: #f4d03f;
 border-radius: 20px;
 width: 640px;
 margin-left: 350px;
+cursor: pointer;
 }
 
     .salida:hover{                                         
