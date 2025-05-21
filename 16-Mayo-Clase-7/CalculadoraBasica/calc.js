@@ -74,5 +74,7 @@ function raiz(){
 
     document.getElementById("salida").textContent = "La raiz cuadrada de: "+ n1  + " es: " + resultado 
     + " y de: "+ n2  + " es: " + resultado1;
+
     console.log("!Felicidades¡... La raiz cuadrada finalizó exitosamente")
+
 }

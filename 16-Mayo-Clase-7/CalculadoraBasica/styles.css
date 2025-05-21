@@ -1,7 +1,8 @@
 body{
 margin:0px;
 padding: 0px;
-background-color: gainsboro;
+/*background-color: gainsboro;*/
+background-color: black;
 
 
 }
@@ -40,7 +41,7 @@ background-color: gainsboro;
 }
 
 h1{
-color:blue;
+color:white;
 font-family: sans-serif;
 text-align: center;
 }
@@ -57,10 +58,11 @@ text-align: center;
     font-family: sans-serif;
     padding: 15px;
     gap:12px;
-    color:green;
-    font-size: large;
+    color:#420922;
+    font-size: xx-large;
     text-align: center;
     width: 120px;
+    height: 15%;
     margin-left: 10%;
     }
     .uno:hover{
@@ -76,19 +78,20 @@ text-align: center;
     font-family: sans-serif;
     padding: 15px;
     gap:12px;
-    color:green;
-    font-size: large;
+    color:#420922;
+    font-size: xx-large;
     text-align: center;
     width: 120px;
+    height: 15%;
+    /*margin-left: 10%;*/
     }
-    
     .dos:hover{
         background-color: #d5f5e3;
         border: 0.5px solid rgb(102, 102, 255);
         color:black;
         border-radius: 10px;
-        margin:0;
     }
+
 
     button{
         width: 150px;
@@ -106,6 +109,14 @@ text-align: center;
         border: 0.5px solid white;
         color:black;
 }
+h2{
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+    width: 100%;
+ 
+    }
 
 .salida{
 padding: 15px;
@@ -123,7 +134,7 @@ margin-left: 350px;
     border: 0.5px solid white;
     color:black;
     }
-*/
+
 #pie{
     width: 100%;
     padding: 0px;
