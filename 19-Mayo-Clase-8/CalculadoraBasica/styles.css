@@ -210,33 +210,28 @@ h2{
      /*   margin-right:40px;*/
    
     }
-
-    
+      
 @media(max-width: 600px){
-    body{
-        margin:0px;
-        padding: 0px;
-        /*background-color: gainsboro;*/
-        background-color: blue;
+body{
+    margin:0px;
+    padding: 0px;
+    background-color: blue;
     }
     
-    h1{
-        color:white;
-        font-family: sans-serif;
-        font-size: 15px;
-        text-align: left;
-        align-content: left;
-        margin-left: 0;
-        }
-    h2{
-        font-size:xx-small;
-        text-align: center;
-        color: white;
-        /*font: 1em sans-serif;*/
-        width: 100%;
-            }
-        
-     
+h1{
+    color:white;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: left;
+    align-content: left;
+    margin-left: 0;
+    }
+h2{
+    font-size:xx-small;
+    text-align: center;
+    color: white;
+    width: 100%;
+    }
 .salida{
     background: none;
     padding: 5px;
@@ -263,24 +258,22 @@ h2{
     cursor: pointer;
 }
 button{
-        display:flex;
-        flex-direction: column;
-        width: 100px;
-        height: 30px;
-        background-color: rgb(255, 255, 255);
-        color: black;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        font-size: small;
-   
-
+    display:flex;
+    flex-direction: column;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: small;
     }
-    button:hover{                                         
-        background-color: #f4d03f;
-        border: 0.5px solid white;
-        color:black;
+button:hover{                                         
+    background-color: #f4d03f;
+    border: 0.5px solid white;
+    color:black;
     }
 
 .uno{
@@ -306,7 +299,6 @@ button{
 .dos{
     display:flex;
     font-family: sans-serif;
-    /*padding: 20px;*/
     gap:12px;
     color:black;
     background:none;
@@ -324,16 +316,15 @@ button{
         border-radius: 10px;
     } 
     
-    .botones{
-        display:block;
-       /* position:absolute;*/
-        padding:10px;
-        justify-content: center;
-        width:100%;
-        height: 25;
-        background-color: #200461 ;
-        gap: 20px;
-        cursor: pointer;
-        border-radius: 15px;
-        
+.botones{
+    display:block;
+    padding:10px;
+    justify-content: center;
+    width:100%;
+    height: 25;
+    background-color: #200461 ;
+    gap: 20px;
+    cursor: pointer;
+    border-radius: 15px;
     }
+}
