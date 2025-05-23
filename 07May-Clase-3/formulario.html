@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style-formulario.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <header> Información de Contacto</header>
+    <form action="/proceso" method="post">
+        <label>Nombre</label>
+        <input type="text" name="nombre" required maxlength="100" minlength="40" class="name">
+        <br> <br>
+        <div>
+            <label >Teléfono</label>
+            <input type="tel" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required class="telf">
+        </div>
+        <br> <br>
+        <div class="anio">
+            <label>Edad</label>
+            <input type="number" name="edad" min="18" max="99" required class="anio">
+        </div>
+        <br> <br>
+        <div>
+            <label>Correo</label>
+             <input type="email" name="correo:" required class="correo">
+        </div>
+        
+        <br> 
+        <br>
+        <label>Mensaje</label>
+        <textarea  name="mensaje" rows = 3  col="500" class="msj"></textarea>
+        <br>
+        <br>
+        <div>
+              <input type="submit" value="Enviar" class="bot">
+        </div>
+    </form>
+</body>
+</html>

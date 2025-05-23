@@ -3,19 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/09May-Clase-4/Styles.css">
-    <title>Estructura Básica de HTML Semántico</title>
+    <link rel="stylesheet" href="./style.css"">
+    <title>HTML Semántico  y CSS</title>
 </head>
 <body>
-    <header>Mis Actividades Favoritas </header>  
-    <nav>                                   <!--    barra principal-->
-            <a href="https://www.espn.com.mx/">Beisbol</a>
-            <a href="https://www.fifa.com/es/news">Futbol</a>
-            <a href="https://www.barcelo.com/pinandtravel/es/mejores-playas-mexico/">Playas</a>
-            <a href="https://concepto.de/cine/">Cine</a>
+<!-- Etiqueta para el encabezado-->
+    <header>
+        <h1 class="titulo1">Mis Actidades Favoritas </h1>      <!--    Título Principal -->
+    </header>
+    <nav class="navegacion">                                   <!--    Menú o barra de navegación -->
+        <ul class="menu">
+            <li><a href="https://www.espn.com.mx/">Beisbol</a></li>
+            <li><a href="https://www.fifa.com/es/news">Futbol</a></li>
+            <li><a href="https://www.barcelo.com/pinandtravel/es/mejores-playas-mexico/">Playas</a></li>
+            <li><a href="https://concepto.de/cine/">Cine</a></li>
+        </ul>
     </nav>
-   
-   
+
     <!-- Todo el contenido de la página en este bloque "main" -->
     <main>
         <!-- Sección Principal de la Página -->
@@ -55,7 +59,7 @@
             </article>
         </section>
      
-        <h2> 2.- Estamos con el entretenimiento familiar</h2>
+        <h2 class="titulo2"> 2.- Estamos con el entretenimiento familiar</h2>
 
         <section>
             <article id="articulo">                                   <!-- articulo 2 -->
@@ -121,7 +125,7 @@
         <footer id="pie">                           <!--pie de página-->
                                                
                 <p>Se reservan los derechos de autor, Mayo 2025. 
-                     <a href="/05May-Clase-2/formulario.html" </Informaci> Información de Contacto </Informaci> </a> </p>
+                     <a href="./formulario.html" </Informaci> Información de Contacto </Informaci> </a> </p>
             
         </footer>
     </main>

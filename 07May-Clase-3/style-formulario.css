@@ -1,0 +1,83 @@
+body{
+margin-top: 45px;
+margin-left: 350px;;
+width: 40%;
+height: 80;
+padding: 30px;
+background-color: #200461;
+color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+border-color: black;
+border-width: 3px;
+
+}
+header{
+
+align-content: center;
+text-align: center;
+padding: 10px;
+background-color: blue;
+border-radius: 2px;
+border-width:3px;
+border-color: black;
+color-scheme: red;
+}
+
+form{
+align-content: center;
+justify-content: center;
+padding: 15px;
+background-color: lightblue;
+
+}
+label{
+
+padding: 0px;
+background:none;
+font-style: bold solid;
+text-align: left;
+align-items: center;
+
+}
+input{
+    width: 100px;
+    text-align: left;
+}
+/***/
+
+.name{
+    width:400px;
+    margin-left: 10px;
+}
+
+.telf{
+    width:400px;
+    margin-left: 8px;
+}
+
+.anio{
+    
+  margin-left: 17px;
+}
+.correo{
+    width:150px;
+    margin-left: 20px;
+  }
+  .msj{
+    
+    margin-left: 10px;
+  }
+  .bot{
+    text-align: center;
+    align-content: right;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    font-size: medium;
+    color:white;
+    background-color: blue;
+    margin-left: 375px;
+    
+  }
+    
+  

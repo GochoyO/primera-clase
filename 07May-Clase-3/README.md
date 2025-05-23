@@ -1,10 +1,12 @@
-Clase 1 -INTRODUCCION AL DESARROLLO WEB Y HTML BÁSICO
+Clase 3 -INTRODUCCION A CSS
 
- - Que es el desarrollo Web
- - HTML y sus estructuras básicas
- - Etiquetas principales: html, head, body, title, h1-h6, p, a, img
+ - CSS es un lenguaje que se utiliza para describir la presentación y el diseño de html. un documento
+ -  como se ven los elementos en una página web (colores, fuentes, tamaños, espaciados, bordes, etc).
+ - Controla la disposición y eldiseño.
+ - Separa el contenido (HTML) de su estilo visual (CSS), lo que facilita el mantenimiento y la consistencia del diseño de un sitio web.
+ 
 
-Actividad 1: Se crea página web siguiendo las especificaciones de la tarea
+Actividad 3: Aplicar estilos a la página semantica.
 
 TAREA: Mi Primera Página Web con HTML + GitHub ✨
 
